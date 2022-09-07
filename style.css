@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 202px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-right: 0;
+  object-fit: cover;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 22%;
+}
+
+header h2 {
+  color: rgba(255, 255, 255, 0.781);
+  margin-bottom: 0px;
+  margin-top: 65px;
+  font-weight: bold;
+  position: relative;
+}
+
+header p {
+  color: rgba(186, 185, 202, 0.616);
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 18px;
+}
+
+header label {
+  color: rgba(240, 255, 255, 0.651);
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+header img {
+  width: 127px;
+  height: 127px;
+  border-radius: 100%;
+  top: 22%;
+  border: 3px solid black;
+  margin-bottom: 0px;
+  position: absolute;
+}
+
+.icon-centang {
+  color: rgb(63, 4, 224);
+}
+
+aside {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+
+aside p {
+  border: 1px solid rgba(255, 255, 255, 0.288);
+  color: rgba(240, 255, 255, 0.925);
+  font-size: 11px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 20px;
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  top: 67%;
+  position: relative;
+}
+
+main a {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-size: cover;
+}
+
+footer {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+footer a {
+  padding: 13px 250px 13px 250px;
+  background-color: rgb(20, 20, 20);
+  border-radius: 5px;
+  margin-bottom: 9px;
+  border: rgba(65, 65, 65, 0.685);
+  text-decoration: none;
+  color: rgba(240, 255, 255, 0.651);
+  justify-content: center;
+}
+
+.icon-link-kiri {
+  position: absolute;
+  bottom: 35px;
+  height: 158px;
+  width: auto;
+  left: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.icon-link-kiri i {
+  color: rgba(240, 255, 255, 0.651);
+}
+
+
+.icon-link-kanan {
+  position: absolute;
+  bottom: 35px;
+  height: 105px;
+  width: auto;
+  right: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.icon-link-kanan i {
+  color: rgba(240, 255, 255, 0.651);
+  display: ;
+  
+}
+
+
+
+
+
+
